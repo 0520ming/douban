@@ -1,0 +1,301 @@
+
+/* 统一样式 */
+buttom{
+    cursor: pointer;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+ul{
+    word-break: break-all;
+}
+.adv-tag::after{
+    content: "广告";
+    color: #eeeeee;
+    font-size: 8px;
+}
+/* 首页通用样式 */
+.section .contianer{
+    width: 950px;
+    margin: 0 auto;
+}
+.section{
+    padding: 35px 0;
+}
+section:nth-of-type(even){
+    background:#f7f7f7;
+}
+.aside-left{
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+}
+.aside-right{
+    float:right;
+    width: 265px;
+    margin-left: 30px;
+}
+.main{
+    overflow: hidden  ;
+}
+.adv img{
+    width: 100%;
+    display: block;
+}
+.section-title{
+    margin: 12px 0;
+}
+.section-title .title{
+    display: inline; 
+    color: #072;
+    font-size: 15px;
+}
+.section-title .link{
+    font-size: 12px;
+}
+.section-title .link::before{
+    content:"(";
+}
+.section-title .link::after{
+    content:")";
+}
+.section-title a{
+    color: #37a;
+    font-size: 12px; 
+}
+.section-title a:hover{
+    color: #fff;
+    text-decoration: none;
+    background: #37a;
+} 
+.hot-list{
+    line-height: 1.5;
+}
+ul li{ 
+    margin-top: 10px;
+}
+ul li .title a{
+    color: #37a;
+    font-size: 14px;
+}
+ul li .desc{
+    color: #aaaaaa;
+    font-size: 13px;
+}
+.section .container .aside-left .title a h3{
+    color:#494949;
+    font-weight: normal;
+    font-size: 24px;
+    margin-left: -10px;
+}
+.dark-color{
+    color:#494949;
+}
+/* 首页通用样式结束 */
+
+
+/* 页头开始 */
+.header{
+    height: 90px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.container{
+    width: 950px;
+    margin: 0 auto;
+}
+/* .header .logo, .header .search, .header .menu{
+    height: 30px; 
+    border: 2px solid ; */ 
+.header .logo h1{
+    position: relative;
+    margin-right: 10px;
+}
+.header .logo span{
+    width: 154px;
+    height: 0px;
+    padding-top: 30px;
+    overflow: hidden;
+    display: block;
+    background: url(./logo_db.png) no-repeat;
+}
+.header .search .tex::placeholder{
+color: #ccc;
+}
+.header .search{
+    width: 270px;
+    height: 30px;
+    border: 1px solid #c3c3c3;
+    position: relative;
+}
+.header .search .txt{
+    width: 240px;
+    height: 20px;
+    padding: 5px;
+}  
+.header .search buttom{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #c3c3c3;
+}
+.header .menu {
+    margin-top: 6px;
+}
+.header .menu a{
+    background: url(./anony_nav_logo.png) no-repeat left top/463px 20px;
+    width: 40px;
+    height: 20px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+    margin-top: 6px;
+} 
+.header .menu .menu-read{
+    background-position: 0 0;
+}
+.header .menu .menu-movie{
+    background-position: -60px 0;
+}
+.header .menu .menu-music{
+    background-position: -120px 0;
+}
+.header .menu .menu-group{
+    background-position: -180px 0;
+}
+.header .menu .menu-city{
+    background-position: -240px 0;
+}
+.header .menu .menu-fm{
+    background-position: -300px 0;
+}
+.header .menu .menu-time{
+    background-position: -360px 0;
+}
+.header .menu .menu-menu{
+    background-position: -420px 0;
+    width: 44px;
+}
+
+/* 横幅开始 */
+.banner{
+    height: 304px;
+    background: url(./banner-bg.jpeg) no-repeat left top/auto 100%;
+    background-position: calc(50% - 305px) top;
+    background-color: #edf4ed;
+}
+.banner .container .loginarea{
+    height: 300px;
+    width: 300px;
+}
+.banner .container .slogan .title{
+    width: 150px;
+    height: 24px;
+    line-height: 24px;
+    color: #111;
+    font-size: 25px;
+    font-weight: normal;
+    margin-top: 88px;
+    margin-right: 32px;
+}
+.banner .container .slogan span{
+    margin-left: 10px;
+    font-weight: 100;
+}
+.banner .container .slogan .download{
+margin: 20px 0;
+}
+.banner .container .slogan .download .bnt{
+    width: 115px;
+    height:30px;
+}
+.banner .container .slogan .download img{
+    width: 28px;
+    height: 28px;
+    vertical-align: middle;
+    margin-left: -12px;
+    border: 1px solid #41ac52;
+}
+/* 横幅结束 */
+
+/* 热门区域开始 */
+.contianer .main .hot-main{
+    width: 655px;
+}
+.hot-main .left ul{
+    width: 350px;
+    text-align: justify;
+}
+.hot-main .left ul::after{
+    content:"";
+    display: inline-block;
+    width: 100%;
+}
+.hot-main .left ul li{
+    width: 170px;
+    font-size: 12px;
+    color: #999;
+    display: inline-block;
+}
+.hot-main .left ul li a{
+    color: #37a;
+}
+.hot-main .left ul li .img{
+    width: 170px;
+}
+.hot-main .left ul li .img img{
+    display: inline-block;
+    width: 170px;
+    height: 170px;
+}
+.hot-main .right{
+    width: 275px;
+    font-size: 12px;
+}
+.hot-main .right ul li{
+    line-height: 20px;
+}
+.hot-main .right ul li a{
+   color: #37a;
+   font-size: 12px;
+}
+.hot-main .right ul li .title{
+    color:#999;
+}
+
+
+/* 豆瓣时间区域开始 */
+.main .time-main ul li{
+    display: inline-block;
+    width:100px;
+    margin-right: 60px;
+}
+.main .time-main ul li .imgs a img{
+    display: inline-block;
+    width: 100px;
+}
+.main .time-main ul li .words p:nth-child(1){
+    font-size: 13px;
+    line-height: 1.38;
+    text-align: center;
+}
+.main .time-main ul li .words p:nth-child(2){
+    font-size: 12px;
+    color: #999999;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* 豆瓣时间区域结束 */
+
+/* 热门区域结束 */

@@ -1,0 +1,25 @@
+
+@import "//at.alicdn.com/t/font_2986716_fvo5gj95exh.css";
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.hidden{
+    display: none;
+}
+a{
+    color: #41ac52;
+}
+.bnt{
+    cursor: pointer;
+    background-color: #41ac52;
+    color:#fff;
+    border-radius: 4px;
+}

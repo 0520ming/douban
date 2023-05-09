@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+input,button{
+     border: none;
+     outline: none;
+     outline-offset: 0;
+}
+button{
+    background: initial;
+}
